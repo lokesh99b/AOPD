@@ -12,6 +12,7 @@ title = data["title"]
 image_url = data["url"]
 explanation = data["explanation"]
 
+# import image
 image_filepath = "img.png"
 response2 = requests.get(image_url)
 with open(image_filepath, 'wb') as file:
